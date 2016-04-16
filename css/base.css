@@ -1,3 +1,12 @@
+body {
+    background: #252E31;
+}
+.logo {
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+}
+
 .vimulator {
     width: 960px;
     margin: 20px auto;
@@ -12,24 +21,25 @@
     padding: 0;
     font-family: monospace;
     margin: -1em 0 1em;
-    background: #eee;
+    background: #D2E2DF;
 }
 .vimulator pre {
+    padding: 5px;
     position: relative;
     z-index: 2;
     font-size: 3em;
     line-height: 1.2;
     height: 6em;
-    background: #ccc;
+    background: #E8F0ED;
 }
 .vimulator .cursor {
-    background: #f00;
+    background: #3bbfee;
     color: #fff;
 }
 .vimulator .insert .cursor {
     background: transparent;
-    color: #000;
-    border-left: 5px solid #f00;
+    color: #161C1E;
+    border-left: 5px solid #3bbfee;
     margin-left: -5px;
     width: 0;
 }
@@ -41,6 +51,7 @@
     line-height: 2em;
     margin: 0;
     padding: 0;
+    color: #fff;
 }
 .vimulator ol li {
     display: none;
@@ -57,7 +68,7 @@
 .vimulator ol b {
     font-family: monospace;
     display: inline-block;
-    border: 1px solid #333;
+    border: 1px solid rgba(255,255,255,.5);
     width: 2em;
     height: 2em;
     text-align: center;
